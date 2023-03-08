@@ -1,0 +1,7 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <h1> Bonjour</h1>
+    <a href="{{path('app_liste')}}"> vers la liste</a><br>
+    <a href="{{path('app_main')}}"> vers la main</a><br>
+    <a href="{{path('app_somme',{a:1000,b:2000} ) }}"> vers la somme</a>
+{% endblock %}
